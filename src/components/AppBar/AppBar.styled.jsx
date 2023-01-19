@@ -12,11 +12,11 @@ export const NavItem = styled(NavLink)`
   transition: color 250ms linear, background-color 250ms linear;
 
   &.active {
-    background-color: tomato;
+    background-color: blue;
     color: #ffffff;
   }
   :hover:not(.active),
   :focus-visible:not(.active) {
-    color: tomato;
+    color: blue;
   }
 `;
